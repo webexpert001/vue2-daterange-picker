@@ -389,3 +389,11 @@
     width: auto; }
   .daterangepicker .drp-calendar.left {
     clear: none !important; } }
+
+@media screen and (max-width: 768px) {
+  .daterangepicker {
+    .calendars-container {
+      flex-wrap: wrap;
+    }
+  }
+}
